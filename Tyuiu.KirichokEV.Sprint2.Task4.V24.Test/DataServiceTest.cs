@@ -20,10 +20,10 @@ namespace Tyuiu.KirichokEV.Sprint2.Task4.V24.Test
         public void ValidCondition2()
         {
             DataService ds = new DataService();
-            double x = 4;
-            double y = 2;
+            double x = 5;
+            double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 0.494;
+            double wait = 0.942;
             Assert.AreEqual(wait, res);
         }
     }
