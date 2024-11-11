@@ -10,7 +10,7 @@ namespace Tyuiu.KirichokEV.Sprint2.Task3.V22.Lib
 
             if (x > 1)
             {
-                y = x + Math.Pow((x + 3) / (x - 1), 2);
+                y = x + Math.Pow((x + 3) / (x - 1), x);
             }
             else
             {
