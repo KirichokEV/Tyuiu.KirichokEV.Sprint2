@@ -7,7 +7,7 @@ namespace Tyuiu.KirichokEV.Sprint2.Task5.V15.Lib
         public string FindDayName(int k)
         {
             int day = (k % 7) + 1;
-            string res;
+            string res = "";
             switch (day)
             {
                 case 1:
